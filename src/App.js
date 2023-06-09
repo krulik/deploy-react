@@ -9,6 +9,19 @@ function App() {
         <p>
           Serge was here.
         </p>
+        <div>
+          Some env vars:
+          <dl>
+            <div>
+              <dd>NODE_ENV</dd>
+              <dt>{process.env.NODE_ENV}</dt>
+            </div>
+            <div>
+              <dt>REACT_APP_API_URL</dt>
+              <dt>{process.env.REACT_APP_API_URL}</dt>
+            </div>
+          </dl>
+        </div>
         <a
           className="App-link"
           href="https://reactjs.org"
