@@ -5,10 +5,6 @@ const config = {
   apiUrl: process.env.REACT_APP_API_URL
 };
 
-console.log(config);
-
-// fetch(`${config.apiUrl}/my-route`);
-
 function App() {
   return (
     <div className="App">
