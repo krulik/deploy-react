@@ -10,7 +10,6 @@ console.log(config);
 // This is the best comment
 
 function App() {
-  return null;
   return (
     <div className="App">
       <header className="App-header">
