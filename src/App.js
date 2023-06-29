@@ -7,9 +7,10 @@ const config = {
 
 console.log(config);
 
-// fetch(`${config.apiUrl}/my-route`);
+// This is the best comment
 
 function App() {
+  return null;
   return (
     <div className="App">
       <header className="App-header">
