@@ -7,7 +7,7 @@ const config = {
 
 console.log(config);
 
-// fetch(`${config.apiUrl}/my-route`);
+// This is the best comment
 
 function App() {
   return (
